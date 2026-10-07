@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>DELETE - Excluir</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <h1>DELETE - Delete</h1>
+        <nav><a href="../index.html">Início</a><a href="../post/post.html">POST</a><a href="../get/get.html">GET</a><a
+                href="../put/put.html">PUT</a></nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Excluir registro pelo ID</h2>
+            <div class="campo"><label>ID</label><input id="id" type="number" min="1" placeholder="Digite o ID"></div>
+            <div class="acoes"><button class="btn danger" id="deletar">Excluir</button></div>
+            <div id="mensagem" class="msg"></div>
+        </section>
+    </main>
+    <script src="delete.js"></script>
+</body>
+
+</html>

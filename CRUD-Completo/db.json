@@ -1,0 +1,32 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Maria",
+      "sobrenome": "Fernanda",
+      "email": "maria@gmail.com",
+      "cpf": "11111111111",
+      "idade": 20,
+      "telefone": "11999999999",
+      "rua": "Rua Aquino Rego",
+      "bairro": "Centro",
+      "cidade": "Suzano",
+      "estado": "SP",
+      "rg": "123456789"
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "sobrenome": "Silva",
+      "email": "pedro@gmail.com",
+      "cpf": "22222222222",
+      "idade": 30,
+      "telefone": "11988888888",
+      "rua": "Rua das Flores",
+      "bairro": "Jardim",
+      "cidade": "Mogi das Cruzes",
+      "estado": "SP",
+      "rg": "987654321"
+    }
+  ]
+}

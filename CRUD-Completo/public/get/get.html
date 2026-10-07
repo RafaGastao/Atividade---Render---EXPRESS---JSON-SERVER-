@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GET - Listar</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <h1>GET - Read</h1>
+        <nav><a href="../index.html">Início</a><a href="../post/post.html">POST</a><a href="../put/put.html">PUT</a><a
+                href="../delete/delete.html">DELETE</a></nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Registros cadastrados</h2>
+            <div class="busca">
+                <div class="campo"><label for="cpfBusca">Buscar por CPF</label><input id="cpfBusca" inputmode="numeric"
+                        placeholder="000.000.000-00"></div>
+                <div class="acoes"><button class="btn secondary" id="buscarCpf" type="button">Buscar CPF</button><button
+                        class="btn" id="buscar" type="button">Listar todos</button></div>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Sobrenome</th>
+                            <th>E-mail</th>
+                            <th>CPF</th>
+                            <th>Idade</th>
+                            <th>Telefone</th>
+                            <th>Rua</th>
+                            <th>Bairro</th>
+                            <th>Cidade</th>
+                            <th>Estado</th>
+                            <th>RG</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela"></tbody>
+                </table>
+            </div>
+            <div id="mensagem" class="msg"></div>
+        </section>
+    </main>
+    <script src="get.js"></script>
+</body>
+
+</html>
